@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grade generator</title>
+</head>
+<body>
+    <h1>Grade genertor </h1>
+    <form id="marksForm">
+        <label for="marks">Enter Marks (0-100):</label>
+        
+        <input type="number" id="marks" min="0" max="100" step="1" required><br>
+
+        <button type="button" onclick="calculateGrade()">Calculate Grade</button>
+    </form>
+
+    <p id="result"></p>
+<script src="/grade-generator/index.js"></script>
+
+</body>
+</html>
